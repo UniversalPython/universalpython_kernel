@@ -1,4 +1,0 @@
-jupyter_client
-IPython
-ipykernel
-universalpython
