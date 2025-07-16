@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: universalpython
+Version: 1.1
+Summary: UniversalPython kernel for Jupyter
+Home-page: https://github.com/UniversalPython/UniversalPython
+Author: Saad Bazaz
+Author-email: saadbazaz@hotmail.com
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: jupyter_client
+Requires-Dist: IPython
+Requires-Dist: ipykernel
+Requires-Dist: universalpython
+
 universalpython_kernel
 ===========
 

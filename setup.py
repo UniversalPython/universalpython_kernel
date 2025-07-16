@@ -6,9 +6,9 @@ with open('README.rst') as f:
 import os 
 
 setup(
-    name='universalpython',
+    name='universal_python',
     version='1.1',
-    packages=['urdu_python',],
+    packages=['universal_python',],
     description='UniversalPython kernel for Jupyter',
     long_description=readme,
     author='Saad Bazaz',
@@ -18,7 +18,7 @@ setup(
         'jupyter_client', 
         'IPython', 
         'ipykernel',
-        'urdupython'
+        'universalpython'
     ],
     classifiers=[
         'Intended Audience :: Developers',

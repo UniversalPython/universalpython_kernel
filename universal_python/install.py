@@ -7,7 +7,7 @@ from jupyter_client.kernelspec import KernelSpecManager
 from IPython.utils.tempdir import TemporaryDirectory
 
 kernel_json = {
-    "argv": [sys.executable, "-m", "urdu_python", "-f", "{connection_file}"],
+    "argv": [sys.executable, "-m", "universal_python", "-f", "{connection_file}"],
     "display_name": "UniversalPython",
     "language": "text",
 }
