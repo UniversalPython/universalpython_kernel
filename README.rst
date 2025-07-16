@@ -14,10 +14,10 @@ Installation
 To install ``universalpython_kernel`` from this repository::
 
     git clone <LINK TO THIS REPO>
-    cd urdu_python_kernel
+    cd universalpython_kernel
     pip install -e .
     python setup.py install
-    python -m urdu_python.install
+    python -m universalpython.install
 
 Using the UniversalPython kernel
 ---------------------
@@ -25,3 +25,15 @@ Using the UniversalPython kernel
 
 **Console frontends**: To use it with the console frontends, add ``--kernel universalpython`` to
 their command line arguments.
+
+How to select a human language
+------------------------------
+You can specify the language for your code by adding a special comment at the top of your file or cell:
+
+    # language: ur
+
+or
+
+    # language: hi
+
+If no language is specified, Urdu (`ur`) will be used by default.
