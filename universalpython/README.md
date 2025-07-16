@@ -1,4 +1,4 @@
-# UrduPython
+# UniversalPython
 Write simple Python in Urdu.
 
 ## Pre-requisites

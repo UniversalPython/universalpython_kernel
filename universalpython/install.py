@@ -8,7 +8,7 @@ from IPython.utils.tempdir import TemporaryDirectory
 
 kernel_json = {
     "argv": [sys.executable, "-m", "urdu_python", "-f", "{connection_file}"],
-    "display_name": "UrduPython",
+    "display_name": "UniversalPython",
     "language": "text",
 }
 
@@ -20,7 +20,7 @@ def install_my_kernel_spec(user=True, prefix=None):
         # TODO: Copy any resources
 
         print('Installing Jupyter kernel spec')
-        KernelSpecManager().install_kernel_spec(td, 'urdupython', user=user, replace=True, prefix=prefix)
+        KernelSpecManager().install_kernel_spec(td, 'universalpython', user=user, replace=True, prefix=prefix)
 
 def _is_root():
     try:

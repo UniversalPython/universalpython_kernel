@@ -6,14 +6,14 @@ with open('README.rst') as f:
 import os 
 
 setup(
-    name='urdu_python',
+    name='universalpython',
     version='1.1',
     packages=['urdu_python',],
-    description='UrduPython kernel for Jupyter',
+    description='UniversalPython kernel for Jupyter',
     long_description=readme,
     author='Saad Bazaz',
     author_email='saadbazaz@hotmail.com',
-    url='https://github.com/saadbazaz/UrduPython',
+    url='https://github.com/UniversalPython/UniversalPython',
     install_requires=[
         'jupyter_client', 
         'IPython', 

@@ -9,8 +9,8 @@ import sys
 
 import os
 
-class UrduPythonKernel(IPythonKernel):
-    implementation = 'UrduPython'
+class UniversalPythonKernel(IPythonKernel):
+    implementation = 'UniversalPython'
     implementation_version = '1.1'
     # language_version = '0.1'
     language_info = {
@@ -19,7 +19,7 @@ class UrduPythonKernel(IPythonKernel):
         'mimetype': 'text/x-python',
         'file_extension': '.py',
     }
-    banner = "UrduPython kernel"
+    banner = "UniversalPython kernel"
 
     
     def do_execute(self, code, silent, store_history=True, user_expressions=None,
@@ -42,7 +42,7 @@ class UrduPythonKernel(IPythonKernel):
             error_message = "Error: " + str(e)
             print (error_message)
 
-        return super(UrduPythonKernel, self).do_execute(compiled_code, silent, store_history, user_expressions,
+        return super(UniversalPythonKernel, self).do_execute(compiled_code, silent, store_history, user_expressions,
                    allow_stdin)
 
 
@@ -63,4 +63,4 @@ class UrduPythonKernel(IPythonKernel):
             #     error_message = "Error: " + str(e)
             #     print (error_message)
 
-        return super(UrduPythonKernel, self).do_complete(compiled_code, cursor_pos)
+        return super(UniversalPythonKernel, self).do_complete(compiled_code, cursor_pos)
